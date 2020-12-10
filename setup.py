@@ -40,7 +40,7 @@ METADATA = {
 }
 
 SETUPTOOLS_METADATA = {
-    'install_requires': ['cairocffi==0.6'],
+    'install_requires': ['cairocffi==1.2.0'],
     'entry_points': {
         'console_scripts': [
             'gerber-render = gerber.__main__:main',
